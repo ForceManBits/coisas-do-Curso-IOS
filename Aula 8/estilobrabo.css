@@ -1,0 +1,30 @@
+body{
+    background-color: lightblue;
+    color:rgb(126, 82, 0);
+    text-align:center;
+    background-image:radial-gradient(white,lightblue,blue)
+    
+}
+
+main{
+font-family:helvetica;
+
+}
+
+header{
+text-shadow: 2px 2px black;
+
+}
+
+
+footer{
+    font-style: italic;
+    font-family: verdana;
+}
+
+img {
+
+width:720px;
+height:480px;
+
+}
