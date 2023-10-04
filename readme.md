@@ -1,7 +1,1 @@
-echo "# coisas-do-CursoIOS" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/ForceManBits/coisas-do-CursoIOS.git
-git push -u origin main
+é o que tá escrito no título mano.
