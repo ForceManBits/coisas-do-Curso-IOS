@@ -1,0 +1,80 @@
+.root{
+    --MainColor:rgb(0,0,255);
+    --SubtleColor:rgb(133,133,133);
+    /* 0 0 20px #fefcc9, 10px -10px 30px #feec85, -20px -20px 40px #ffae34, 20px -40px 50px #ec760c, -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e; */
+
+
+
+
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+
+}
+
+
+body{
+    
+    gap: 200px;
+    border-radius: 8px;
+    margin: auto;
+    font-weight:200;
+}
+
+main p{
+    text-align: justify;
+    font-style: italic;
+    text-indent: 50px;
+    margin:15px;
+    font-weight: 1000;
+
+
+}
+
+
+h1{
+    background:#0057c1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    /*font-style: italic;*/
+    color: #0d0718;
+    font-weight: -100;
+    border-radius: 8px;
+    letter-spacing: 3px;
+    line-height: 60px;
+    margin: 0em;
+    margin-top: 10px;
+    margin-left :45px;
+    margin-right: 45px;
+    margin-bottom: 25px;
+    
+    padding: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 5px 10px #00391d , 10px 10px 10px rgb(1, 167, 196);
+}
+
+footer{
+
+    text-align: center;
+    background: #0d0718;
+    border-radius: 8px;
+    color: #ffffff;
+    margin: 1em;
+    margin-left:500px;
+    margin-right:500px;
+}
+
+.imagemLegal{
+
+    display: block;
+    max-width: 100%;
+
+}
