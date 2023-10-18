@@ -6,10 +6,19 @@
     box-sizing:  border-box;
 }
 
+header{
+    margin: 32px 18px;
+    padding:2em;
+    background: #350037;
+    border-radius: 1em;
+    color: #ffffff;
+
+
+}
+
 body{
-    font-size: 1.3em;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #f9f9f9;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background: #815388;
 }
 
 a{
@@ -24,6 +33,7 @@ a{
     justify-content: center;
     text-align: center  ;
     padding: 2em;
+    margin-bottom: 2em;
 }
 
 .main-header h1{
@@ -34,7 +44,7 @@ a{
 }
 
 .main-header h1 span{
-    color: #b50d10;
+    color: #d09800;
 }
 
 /* Largura e coisas gerais do container */
@@ -52,12 +62,12 @@ img{
 
 
 }
-
+/* cards e bagulhos */
 .card{
     display: grid;
     grid-template-columns:repeat(2, 1fr) ;
     grid: 0.5em;
-    background: #ffd7d7;
+    background: #ffd451;
     margin-bottom: 2em;
     border-radius: 1em;
 }
@@ -77,18 +87,51 @@ img{
 }
 
 .btn{
-    background:#000;
-    color:#fff;
+    background:#ffb300;
+    color:#000000;
     padding:0.6em 1.6em;
     margin-top:2em;
     display: inline-block;
-    
+    border-radius: 1em;
 }
 
 .btn:hover{
-    background-image:url(https://upload.wikimedia.org/wikipedia/pt/7/73/Trollface.png);
     background-position:center ;
     padding: 0.2;
     opacity: 0.8;
+
+}
+
+.galeria{
+    margin:2em;
+    height:20em;
+    gap:0.5em;
+    display: flex;
+    transition: all 1s;
+}
+
+.galeria div{
+    flex: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1em;
+    transition:all .3s
+    
+}
+
+
+.galeria div:hover{
+    flex: 3;
+    border: #000;
+
+
+}
+
+.galeria:hover div:not(:hover){
+    filter: saturate(10%) blur(1px) drop-shadow(16px 16px 16px rgb(102, 1, 109));
+    
+    
+
 
 }
